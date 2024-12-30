@@ -1,5 +1,3 @@
-<pre>
-      <code>
 import os
 import shutil
 import tkinter as tk
@@ -104,5 +102,3 @@ def on_close(root):
 
 if __name__ == "__main__":
     main()
-      </code>
-    </pre>
