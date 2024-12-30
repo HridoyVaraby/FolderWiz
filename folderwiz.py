@@ -44,7 +44,7 @@ class FolderWiz:
             "documents": [".doc", ".docx", ".pdf", ".txt", ".rtf", ".csv", ".gdoc", ".gsheet"],
             "archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
             "executables": [".exe", ".msi"],
-            "illustrator": [".ai"],
+            "illustrator": [".ai", ".eps", ".svg"],
             "photoshop": [".psd", ".psb"],
             "music": [".mp3", ".wav", ".flac", ".aac"],
         }
