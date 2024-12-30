@@ -43,12 +43,12 @@ class FolderWiz:
         file_types = {
             "images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"],
             "videos": [".mp4", ".avi", ".mov", ".mkv"],
-            "documents": [".doc", ".docx", ".pdf", ".txt", ".rtf", ".csv"],
+            "documents": [".doc", ".docx", ".pdf", ".txt", ".rtf", ".csv", ".gdoc", ".gsheet"],
             "archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
             "executables": [".exe", ".msi"],
             "illustrator": [".ai"],
             "photoshop": [".psd", ".psb"],
-            "music": [".mp3", ".wav", ".flac", ".aac"]
+            "music": [".mp3", ".wav", ".flac", ".aac"],
         }
 
         for filename in os.listdir(folder):
